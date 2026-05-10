@@ -1,10 +1,10 @@
 # 📚 Çalışma Takip Sistemi (React)
 
-Bu proje, Bahçeşehir Üniversitesi Yazılım Mühendisliği staj hazırlık/proje ödevi kapsamında geliştirilmiştir. Kullanıcıların ders çalışma sürelerini takip etmelerini, hedefler belirlemelerini ve ilerlemelerini görsel olarak izlemelerini sağlar.
+Bu proje, kullanıcıların ders çalışma sürelerini takip etmelerini, hedefler belirlemelerini ve ilerlemelerini görsel olarak izlemelerini sağlar.
 
 ## 🚀 Canlı Uygulama
 Projeye tarayıcı üzerinden erişmek için:
-[Buraya Netlify Linkini Yapıştır]
+https://calisma-takibi-proje.netlify.app/
 
 ## ✨ Özellikler
 - **Ders Yönetimi:** Yeni ders adı ve hedef süre (dakika) belirleyerek listeye ekleme.
