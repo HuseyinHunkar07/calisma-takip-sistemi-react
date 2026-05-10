@@ -1,16 +1,31 @@
-# React + Vite
+# 📚 Çalışma Takip Sistemi (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, Bahçeşehir Üniversitesi Yazılım Mühendisliği staj hazırlık/proje ödevi kapsamında geliştirilmiştir. Kullanıcıların ders çalışma sürelerini takip etmelerini, hedefler belirlemelerini ve ilerlemelerini görsel olarak izlemelerini sağlar.
 
-Currently, two official plugins are available:
+## 🚀 Canlı Uygulama
+Projeye tarayıcı üzerinden erişmek için:
+[Buraya Netlify Linkini Yapıştır]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Özellikler
+- **Ders Yönetimi:** Yeni ders adı ve hedef süre (dakika) belirleyerek listeye ekleme.
+- **İlerleme Takibi:** Her ders için hedef süreye oranla dinamik dolan Progress Bar.
+- **Hızlı Güncelleme:** "+10 Dakika" butonu ile mevcut çalışma süresini artırma.
+- **Silme:** Tamamlanan veya iptal edilen çalışmaları listeden kaldırma.
+- **Responsive Tasarım:** Mobil ve masaüstü cihazlarla uyumlu arayüz.
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
+- **Frontend:** React.js (Vite)
+- **Stil/UI:** Bootstrap 5 & Bootstrap Icons
+- **Mimari:** Bileşen Tabanlı Yapı (Component-Based)
+- **Versiyon Kontrol:** Git & GitHub
+- **Yayın (Deployment):** Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Proje Yapısı
+Proje, temiz kod prensiplerine uygun olarak şu klasör yapısıyla kurgulanmıştır:
+- `src/Components`: Tekrar kullanılabilir arayüz parçaları (DersFormu vb.)
+- `src/Pages`: Sayfa bazlı ana bileşenler (AnaSayfa)
+- `src/Interfaces`: Veri modelleri ve şemalar
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+**Geliştiren:** Hüseyin Hünkar  
+**Bölüm:** Yazılım Mühendisliği (BAU)
